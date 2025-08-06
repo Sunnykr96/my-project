@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banking-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .balance {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2e7d32;
+    background: #e8f5e9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+  
+  .buttons button {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .deposit {
+    background-color: #1976d2;
+    color: white;
+  }
+  
+  .withdraw {
+    background-color: #d32f2f;
+    color: white;
+  }
+  
+  .buttons button:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+  }
+  
+  @media (min-width: 500px) {
+    .buttons {
+      flex-direction: row;
+    }
+  }
+  
