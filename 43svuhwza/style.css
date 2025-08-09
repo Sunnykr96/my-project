@@ -1,0 +1,29 @@
+<style>
+  body.dark-mode {
+      background-color: #121212;
+      color: #e0e0e0;
+  }
+  body.dark-mode .header {
+      background-color: #222;
+      color: #eee;
+  }
+  body.dark-mode .sidebar {
+      background-color: #111;
+      color: #ddd;
+  }
+  body.dark-mode .sidebar a {
+      color: #bbb;
+  }
+  body.dark-mode .sidebar a:hover {
+      text-decoration: underline;
+      color: #fff;
+  }
+  body.dark-mode .main-content {
+      background-color: #1e1e1e;
+      color: #ddd;
+  }
+  body.dark-mode .footer {
+      background-color: #222;
+      color: #eee;
+  }
+</style>
